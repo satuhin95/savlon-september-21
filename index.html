@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="ad.size" content="width=300,height=250">
+    <link rel="canonical" href="">
+    <title> Drag and Drop Animation by PurplePatch </title>
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="//purplepatch.online/assets/ico/favicon.ico"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="pp_wrapper">
+        <div class="slide_1 absolute hidden">
+            <div class="germ absolute"><img src="slide1/germs.png" alt=""></div>
+            <div class="soap absolute"><img src="slide1/pack.png" alt=""></div>
+            <div class="draggableElement absolute hidden"><img src="slide2/packbig.png" alt=""></div>
+            <div class="drag_text absolute"><img src="slide1/text1.png" alt=""></div>
+            <div class="drag absolute"><img src="slide1/hand.png" alt=""></div>
+        </div>
+        <div class="slide_2 absolute hidden">
+            <div class="final_text absolute "><img src="slide2/text.png" alt=""></div>
+            <div class="buyButton absolute flyingMove"><img src="slide2/share.png" alt=""></div>
+            <div class="logo absolute "><img src="slide2/logo.png" alt=""></div>
+        </div>       
+    </div>
+    <script type="text/javascript" src="images/purplepatch.js?v=1.16"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(".pp_wrapper").click(function(){
+                if ($(".drag_text").hasClass("showZoomIn")) {
+                    // window.open("https://chaldal.com/emami-creme-21-hand-sanitizer-50-ml");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
